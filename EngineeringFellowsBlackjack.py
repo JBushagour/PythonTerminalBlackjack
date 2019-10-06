@@ -33,7 +33,7 @@ class BlackjackPlayer(Cards.Player):
 def main():
     # Startup message
     terminalCards.clearTerminal()
-    print("-="*15 + " Welcome To Blackjack! " + "=-" * 15)
+    print("-=" * 15 + " Welcome To Blackjack! " + "=-" * 15)
 
     # Deck and dealer created
     deck = Cards.DeckOfCards()
